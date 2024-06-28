@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main>
-     <h1>Nested Routing</h1> 
+     {/* <h1>Nested Routing</h1> 
      <Link href="/login" >Go to Login Page</Link>
      <br />
      <br />
@@ -19,7 +19,10 @@ export default function Home() {
      <br />
      <br />
      <button onClick={()=>navigate("/login")} >Go to Login Page</button>
-     <button onClick={()=>navigate("/about")} >Go to About Page</button>
+     <button onClick={()=>navigate("/about")} >Go to About Page</button> */}
+     
+     <h1>Fetch Data with API in Client Component</h1>
+     <Link href={"./productlist"}>Goto the Product Page</Link>
     </main>
   )
 }
